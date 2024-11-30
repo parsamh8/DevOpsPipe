@@ -1,37 +1,38 @@
 {
-  "name": "vite-project",
-  "private": true,
-  "version": "0.0.0",
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server.js",
   "type": "module",
   "scripts": {
+    "build": "tsc",
+    "seed": "node dist/seeds/seed.js",
     "start": "node dist/server.js",
-    "dev": "vite --port 3000",
-    "build": "tsc && vite build",
+    "watch": "nodemon dist/server.js",
+    "test": "vitest",
     "lint": "eslint src --ext js,tsx --report-unused-disable-directives --max-warnings 0",
-  "preview": "vite preview",
-      "eslint": "eslint src",
-    "test": "vitest"
+    "preview": "vite preview",
+    "eslint": "eslint src"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "express": "^4.19.2",
+    "mongoose": "^8.0.0"
   },
   "devDependencies": {
-    "@testing-library/react": "^16.0.0",
-    "@types/jest": "^29.5.12",
-    "@types/pretty": "^2.0.3",
-    "@types/react": "^18.2.15",
-    "@types/react-dom": "^18.2.7",
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "@typescript-eslint/parser": "^6.0.0",
-    "@vitejs/plugin-react": "^4.0.3",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.8",
+    "dotenv": "^16.4.5",
+    "msw": "^2.3.1",
+    "nodemon": "^3.1.0",
+    "typescript": "^5.4.5",
+    "vitest": "^2.0.1",
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
-    "happy-dom": "^14.12.3",
-    "pretty": "^2.0.0",
-    "typescript": "^5.0.2",
-    "vite": "^4.4.5",
-    "vitest": "^2.0.4"
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0"
   }
 }
