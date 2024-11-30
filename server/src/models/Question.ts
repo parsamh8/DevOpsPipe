@@ -20,6 +20,6 @@ const QuestionSchema = new Schema<IQuestion>({
   ]
 });
 
-const Question = model<IQuestion>('Question', QuestionSchema);
+const Question: any = model<IQuestion>('Question', QuestionSchema);
 export { IQuestion, QuestionSchema };
 export default Question;
