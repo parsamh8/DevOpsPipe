@@ -9,7 +9,10 @@
     "seed": "node dist/seeds/seed.js",
     "start": "node dist/server.js",
     "watch": "nodemon dist/server.js",
-    "test": "vitest"
+    "test": "vitest",
+    "lint": "eslint src --ext js,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "eslint": "eslint src"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +28,11 @@
     "msw": "^2.3.1",
     "nodemon": "^3.1.0",
     "typescript": "^5.4.5",
-    "vitest": "^2.0.1"
+    "vitest": "^2.0.1",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0"
   }
 }
