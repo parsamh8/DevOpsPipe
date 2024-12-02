@@ -9,7 +9,9 @@
     "seed": "node dist/seeds/seed.js",
     "start": "node dist/server.js",
     "watch": "nodemon dist/server.js",
-    "test": "vitest"
+    "test": "vitest",
+    "preview": "vite preview",
+    "eslint": "eslint src"
   },
   "keywords": [],
   "author": "",
