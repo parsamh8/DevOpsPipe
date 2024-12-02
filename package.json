@@ -13,7 +13,7 @@
     "test-component": "npx cypress run --component",
     "test-gui": "npx cypress open",
     "cypress": "npx cypress open",
-    "lint": "eslint src --ext js,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "cd server && eslint src --ext js,tsx --report-unused-disable-directives --max-warnings 0",
     "eslint": "eslint src"
   },
   "keywords": [],
