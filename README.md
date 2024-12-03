@@ -22,12 +22,9 @@ This MERN app features a CI/CD pipeline powered by GitHub Actions to ensure code
 
 ## Installation
 
-Heres a [Link](https://drive.google.com/file/d/1JFyx8SiZYH4_h3Y2zlWLpD5L5URNYtdQ/view) to application demonstration.
-
  - Node.js (v16 or later recommended)
  - Npm or yarn package manager
  - MongoDB (local or cloud instance)
- - Push from your feature branch to develop (CI) and upon test approval, create PR to merge to the main branch (CD).
 
 
 ## Usage
@@ -43,7 +40,6 @@ Heres a [Link](https://drive.google.com/file/d/1JFyx8SiZYH4_h3Y2zlWLpD5L5URNYtdQ
 This workflow guarantees that every change to the codebase is thoroughly tested before being integrated, reducing the risk of introducing bugs or regressions. By automating the testing process during Continuous Integration (CI), developers can catch and resolve issues early. The seamless deployment process in Continuous Deployment (CD) ensures that only tested and approved code reaches the production environment, maintaining the application's stability and reliability. Additionally, this structured approach promotes efficient collaboration among team members by providing a clear process for feature development, review, and deployment, ensuring smoother coordination and faster delivery of updates.
 
 <img src="./client/src/assets/test.PNG">
-
 
 
 ## Tests
