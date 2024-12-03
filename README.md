@@ -37,9 +37,12 @@ This MERN app features a CI/CD pipeline powered by GitHub Actions to ensure code
    - Once tests pass, create a Pull Request (PR) to merge your feature branch into the main branch.
    - Merging into `main` triggers Continuous Deployment (CD), automatically deploying the updated application to the production environment.
 
+<img src="./client/src/assets/test.PNG">
+
+
 This workflow guarantees that every change to the codebase is thoroughly tested before being integrated, reducing the risk of introducing bugs or regressions. By automating the testing process during Continuous Integration (CI), developers can catch and resolve issues early. The seamless deployment process in Continuous Deployment (CD) ensures that only tested and approved code reaches the production environment, maintaining the application's stability and reliability. Additionally, this structured approach promotes efficient collaboration among team members by providing a clear process for feature development, review, and deployment, ensuring smoother coordination and faster delivery of updates.
 
-<img src="./client/src/assets/test.PNG">
+<img src="./client/src/assets/test2.PNG">
 
 
 ## Tests
