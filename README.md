@@ -35,7 +35,7 @@ This MERN app features a CI/CD pipeline powered by GitHub Actions to ensure code
 
 2. Code Review and Merge:
    - Once tests pass, create a Pull Request (PR) to merge your feature branch into the main branch.
-   - Merging into `main` triggers Continuous Deployment (CD), automatically deploying the updated application to the production environment.
+   - Merging into `main` triggers Continuous Delivery (CD), automatically deploying the updated application to the production environment.
 
 <img src="./client/src/assets/test.PNG">
 
